@@ -5,7 +5,7 @@
   "repository": "",
   "author": "",
   "scripts": {
-    "start": "webpack-dev-server --inline"
+    "start": "webpack-dashboard -- webpack-dev-server --inline"
   },
   "license": "MIT",
   "devDependencies": {
@@ -19,6 +19,7 @@
   "dependencies": {
     "react": "^15.4.1",
     "react-dom": "^15.4.1",
+    "webpack-dashboard": "^1.0.0-5",
     "webpack-dev-server": "^1.16.2"
   }
 }
